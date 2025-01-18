@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D66D1A182D3BC27F00386678 /* XPCService.xpc in Embed XPC Services */ = {isa = PBXBuildFile; fileRef = D66D1A0C2D3BC27E00386678 /* XPCService.xpc */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D66D19EC2D3BC24A00386678 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D66D19D22D3BC24700386678 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D66D19D92D3BC24700386678;
+			remoteInfo = XPCDemoNew;
+		};
+		D66D19F62D3BC24A00386678 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D66D19D22D3BC24700386678 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D66D19D92D3BC24700386678;
+			remoteInfo = XPCDemoNew;
+		};
+		D66D1A162D3BC27F00386678 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D66D19D22D3BC24700386678 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D66D1A0B2D3BC27E00386678;
+			remoteInfo = XPCService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D66D1A1D2D3BC27F00386678 /* Embed XPC Services */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/XPCServices";
+			dstSubfolderSpec = 16;
+			files = (
+				D66D1A182D3BC27F00386678 /* XPCService.xpc in Embed XPC Services */,
+			);
+			name = "Embed XPC Services";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D66D19DA2D3BC24700386678 /* XPCDemoNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XPCDemoNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D66D19EB2D3BC24A00386678 /* XPCDemoNewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XPCDemoNewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D66D19F52D3BC24A00386678 /* XPCDemoNewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XPCDemoNewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D66D1A0C2D3BC27E00386678 /* XPCService.xpc */ = {isa = PBXFileReference; explicitFileType = "wrapper.xpc-service"; includeInIndex = 0; path = XPCService.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D66D1A192D3BC27F00386678 /* Exceptions for "XPCService" folder in "XPCService" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D66D1A0B2D3BC27E00386678 /* XPCService */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D66D19DC2D3BC24800386678 /* XPCDemoNew */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = XPCDemoNew;
+			sourceTree = "<group>";
+		};
+		D66D19EE2D3BC24A00386678 /* XPCDemoNewTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = XPCDemoNewTests;
+			sourceTree = "<group>";
+		};
+		D66D19F82D3BC24A00386678 /* XPCDemoNewUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = XPCDemoNewUITests;
+			sourceTree = "<group>";
+		};
+		D66D1A0D2D3BC27E00386678 /* XPCService */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D66D1A192D3BC27F00386678 /* Exceptions for "XPCService" folder in "XPCService" target */,
+			);
+			path = XPCService;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D66D19D72D3BC24700386678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66D19E82D3BC24A00386678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66D19F22D3BC24A00386678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66D1A092D3BC27E00386678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D66D19D12D3BC24700386678 = {
+			isa = PBXGroup;
+			children = (
+				D66D19DC2D3BC24800386678 /* XPCDemoNew */,
+				D66D19EE2D3BC24A00386678 /* XPCDemoNewTests */,
+				D66D19F82D3BC24A00386678 /* XPCDemoNewUITests */,
+				D66D1A0D2D3BC27E00386678 /* XPCService */,
+				D66D19DB2D3BC24700386678 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D66D19DB2D3BC24700386678 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D66D19DA2D3BC24700386678 /* XPCDemoNew.app */,
+				D66D19EB2D3BC24A00386678 /* XPCDemoNewTests.xctest */,
+				D66D19F52D3BC24A00386678 /* XPCDemoNewUITests.xctest */,
+				D66D1A0C2D3BC27E00386678 /* XPCService.xpc */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D66D19D92D3BC24700386678 /* XPCDemoNew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D66D19FF2D3BC24A00386678 /* Build configuration list for PBXNativeTarget "XPCDemoNew" */;
+			buildPhases = (
+				D66D19D62D3BC24700386678 /* Sources */,
+				D66D19D72D3BC24700386678 /* Frameworks */,
+				D66D19D82D3BC24700386678 /* Resources */,
+				D66D1A1D2D3BC27F00386678 /* Embed XPC Services */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D66D1A172D3BC27F00386678 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D66D19DC2D3BC24800386678 /* XPCDemoNew */,
+			);
+			name = XPCDemoNew;
+			packageProductDependencies = (
+			);
+			productName = XPCDemoNew;
+			productReference = D66D19DA2D3BC24700386678 /* XPCDemoNew.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D66D19EA2D3BC24A00386678 /* XPCDemoNewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D66D1A022D3BC24A00386678 /* Build configuration list for PBXNativeTarget "XPCDemoNewTests" */;
+			buildPhases = (
+				D66D19E72D3BC24A00386678 /* Sources */,
+				D66D19E82D3BC24A00386678 /* Frameworks */,
+				D66D19E92D3BC24A00386678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D66D19ED2D3BC24A00386678 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D66D19EE2D3BC24A00386678 /* XPCDemoNewTests */,
+			);
+			name = XPCDemoNewTests;
+			packageProductDependencies = (
+			);
+			productName = XPCDemoNewTests;
+			productReference = D66D19EB2D3BC24A00386678 /* XPCDemoNewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D66D19F42D3BC24A00386678 /* XPCDemoNewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D66D1A052D3BC24A00386678 /* Build configuration list for PBXNativeTarget "XPCDemoNewUITests" */;
+			buildPhases = (
+				D66D19F12D3BC24A00386678 /* Sources */,
+				D66D19F22D3BC24A00386678 /* Frameworks */,
+				D66D19F32D3BC24A00386678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D66D19F72D3BC24A00386678 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D66D19F82D3BC24A00386678 /* XPCDemoNewUITests */,
+			);
+			name = XPCDemoNewUITests;
+			packageProductDependencies = (
+			);
+			productName = XPCDemoNewUITests;
+			productReference = D66D19F52D3BC24A00386678 /* XPCDemoNewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D66D1A0B2D3BC27E00386678 /* XPCService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D66D1A1A2D3BC27F00386678 /* Build configuration list for PBXNativeTarget "XPCService" */;
+			buildPhases = (
+				D66D1A082D3BC27E00386678 /* Sources */,
+				D66D1A092D3BC27E00386678 /* Frameworks */,
+				D66D1A0A2D3BC27E00386678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D66D1A0D2D3BC27E00386678 /* XPCService */,
+			);
+			name = XPCService;
+			packageProductDependencies = (
+			);
+			productName = XPCService;
+			productReference = D66D1A0C2D3BC27E00386678 /* XPCService.xpc */;
+			productType = "com.apple.product-type.xpc-service";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D66D19D22D3BC24700386678 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					D66D19D92D3BC24700386678 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					D66D19EA2D3BC24A00386678 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D66D19D92D3BC24700386678;
+					};
+					D66D19F42D3BC24A00386678 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D66D19D92D3BC24700386678;
+					};
+					D66D1A0B2D3BC27E00386678 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = D66D19D52D3BC24700386678 /* Build configuration list for PBXProject "XPCDemoNew" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D66D19D12D3BC24700386678;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D66D19DB2D3BC24700386678 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D66D19D92D3BC24700386678 /* XPCDemoNew */,
+				D66D19EA2D3BC24A00386678 /* XPCDemoNewTests */,
+				D66D19F42D3BC24A00386678 /* XPCDemoNewUITests */,
+				D66D1A0B2D3BC27E00386678 /* XPCService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D66D19D82D3BC24700386678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66D19E92D3BC24A00386678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66D19F32D3BC24A00386678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66D1A0A2D3BC27E00386678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D66D19D62D3BC24700386678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66D19E72D3BC24A00386678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66D19F12D3BC24A00386678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66D1A082D3BC27E00386678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D66D19ED2D3BC24A00386678 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D66D19D92D3BC24700386678 /* XPCDemoNew */;
+			targetProxy = D66D19EC2D3BC24A00386678 /* PBXContainerItemProxy */;
+		};
+		D66D19F72D3BC24A00386678 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D66D19D92D3BC24700386678 /* XPCDemoNew */;
+			targetProxy = D66D19F62D3BC24A00386678 /* PBXContainerItemProxy */;
+		};
+		D66D1A172D3BC27F00386678 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D66D1A0B2D3BC27E00386678 /* XPCService */;
+			targetProxy = D66D1A162D3BC27F00386678 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D66D19FD2D3BC24A00386678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D66D19FE2D3BC24A00386678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D66D1A002D3BC24A00386678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = XPCDemoNew/XPCDemoNew.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"XPCDemoNew/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.XPCDemoNew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D66D1A012D3BC24A00386678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = XPCDemoNew/XPCDemoNew.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"XPCDemoNew/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.XPCDemoNew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D66D1A032D3BC24A00386678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.XPCDemoNewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XPCDemoNew.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/XPCDemoNew";
+			};
+			name = Debug;
+		};
+		D66D1A042D3BC24A00386678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.XPCDemoNewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XPCDemoNew.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/XPCDemoNew";
+			};
+			name = Release;
+		};
+		D66D1A062D3BC24A00386678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.XPCDemoNewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = XPCDemoNew;
+			};
+			name = Debug;
+		};
+		D66D1A072D3BC24A00386678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.XPCDemoNewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = XPCDemoNew;
+			};
+			name = Release;
+		};
+		D66D1A1B2D3BC27F00386678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = XPCService/XPCService.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XPCService/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = XPCService;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.XPCService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D66D1A1C2D3BC27F00386678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = XPCService/XPCService.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XPCService/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = XPCService;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.XPCService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D66D19D52D3BC24700386678 /* Build configuration list for PBXProject "XPCDemoNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D66D19FD2D3BC24A00386678 /* Debug */,
+				D66D19FE2D3BC24A00386678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D66D19FF2D3BC24A00386678 /* Build configuration list for PBXNativeTarget "XPCDemoNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D66D1A002D3BC24A00386678 /* Debug */,
+				D66D1A012D3BC24A00386678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D66D1A022D3BC24A00386678 /* Build configuration list for PBXNativeTarget "XPCDemoNewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D66D1A032D3BC24A00386678 /* Debug */,
+				D66D1A042D3BC24A00386678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D66D1A052D3BC24A00386678 /* Build configuration list for PBXNativeTarget "XPCDemoNewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D66D1A062D3BC24A00386678 /* Debug */,
+				D66D1A072D3BC24A00386678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D66D1A1A2D3BC27F00386678 /* Build configuration list for PBXNativeTarget "XPCService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D66D1A1B2D3BC27F00386678 /* Debug */,
+				D66D1A1C2D3BC27F00386678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D66D19D22D3BC24700386678 /* Project object */;
+}
